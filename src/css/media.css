@@ -1,0 +1,24 @@
+/* When the browser is at least 600px and above */
+@media screen and (max-width: 600px) {
+  img {
+    width: 50px;
+  }
+
+  header {
+    position: sticky;
+  }
+}
+
+/* When the browser is at least 600px and above */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  img {
+    width: 300px;
+  }
+}
+
+/* When the browser is at least 600px and above */
+@media screen and (min-width: 901px) and (max-width: 1900px) {
+  img {
+    width: 100%;
+  }
+}
